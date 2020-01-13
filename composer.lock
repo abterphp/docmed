@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8597440fa99d69c21be4c6367ca27ce2",
+    "content-hash": "92f0f5cc4a20dced3392837c71ed9add",
     "packages": [
         {
             "name": "abterphp/admin",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/abterphp/admin.git",
-                "reference": "d72b49f24f079cf62047e8cee45795b1b4450e99"
+                "reference": "9cd790aff0c07ea262ccd582fb478a10d96ced38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/abterphp/admin/zipball/d72b49f24f079cf62047e8cee45795b1b4450e99",
-                "reference": "d72b49f24f079cf62047e8cee45795b1b4450e99",
+                "url": "https://api.github.com/repos/abterphp/admin/zipball/9cd790aff0c07ea262ccd582fb478a10d96ced38",
+                "reference": "9cd790aff0c07ea262ccd582fb478a10d96ced38",
                 "shasum": ""
             },
             "require": {
@@ -54,7 +54,7 @@
                 }
             ],
             "description": "Admin module for AbterPHP",
-            "time": "2020-01-04T17:25:24+00:00"
+            "time": "2020-01-13T00:39:14+00:00"
         },
         {
             "name": "abterphp/bootstrap4-website",
@@ -62,12 +62,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/abterphp/bootstrap4-website.git",
-                "reference": "e5e8e06325dd6dcae1deb083ae2fef8ec27d2e6f"
+                "reference": "e4135b48d193e6c7c8a644cadea35bc960886a63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/abterphp/bootstrap4-website/zipball/e5e8e06325dd6dcae1deb083ae2fef8ec27d2e6f",
-                "reference": "e5e8e06325dd6dcae1deb083ae2fef8ec27d2e6f",
+                "url": "https://api.github.com/repos/abterphp/bootstrap4-website/zipball/e4135b48d193e6c7c8a644cadea35bc960886a63",
+                "reference": "e4135b48d193e6c7c8a644cadea35bc960886a63",
                 "shasum": ""
             },
             "require": {
@@ -100,53 +100,7 @@
                 }
             ],
             "description": "Website module for AbterPHP",
-            "time": "2019-12-29T14:08:58+00:00"
-        },
-        {
-            "name": "abterphp/contact",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/abterphp/contact.git",
-                "reference": "5124492d8a18121bb3fb48ce40cf837b80291bd5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/abterphp/contact/zipball/5124492d8a18121bb3fb48ce40cf837b80291bd5",
-                "reference": "5124492d8a18121bb3fb48ce40cf837b80291bd5",
-                "shasum": ""
-            },
-            "require": {
-                "abterphp/website": "*"
-            },
-            "require-dev": {
-                "phan/phan": "^2.2",
-                "phpmd/phpmd": "^2.6",
-                "phpunit/phpunit": "^8.4",
-                "squizlabs/php_codesniffer": "^3.4"
-            },
-            "type": "project",
-            "autoload": {
-                "psr-4": {
-                    "AbterPhp\\Contact\\": [
-                        "src",
-                        "tests"
-                    ]
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Peter Aba",
-                    "email": "peter@peteraba.com",
-                    "role": "Engineer"
-                }
-            ],
-            "description": "Contact module for AbterPHP",
-            "time": "2020-01-04T11:13:59+00:00"
+            "time": "2020-01-04T18:34:19+00:00"
         },
         {
             "name": "abterphp/framework",
@@ -154,12 +108,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/abterphp/framework.git",
-                "reference": "c0fc71ef6d0a720c9b12f5ca6bc1032942ccc28a"
+                "reference": "0f51b78392de97796f75e9dc027e4620ce972f04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/abterphp/framework/zipball/c0fc71ef6d0a720c9b12f5ca6bc1032942ccc28a",
-                "reference": "c0fc71ef6d0a720c9b12f5ca6bc1032942ccc28a",
+                "url": "https://api.github.com/repos/abterphp/framework/zipball/0f51b78392de97796f75e9dc027e4620ce972f04",
+                "reference": "0f51b78392de97796f75e9dc027e4620ce972f04",
                 "shasum": ""
             },
             "require": {
@@ -216,7 +170,7 @@
                 }
             ],
             "description": "Foundations for AbterPHP",
-            "time": "2020-01-04T09:53:22+00:00"
+            "time": "2020-01-12T23:38:38+00:00"
         },
         {
             "name": "abterphp/website",
@@ -224,12 +178,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/abterphp/website.git",
-                "reference": "9d8949d18e02f36652bd2e536e4d4c6c2122436c"
+                "reference": "45be64102e4c624667ee5fd47299bae43ccf399e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/abterphp/website/zipball/9d8949d18e02f36652bd2e536e4d4c6c2122436c",
-                "reference": "9d8949d18e02f36652bd2e536e4d4c6c2122436c",
+                "url": "https://api.github.com/repos/abterphp/website/zipball/45be64102e4c624667ee5fd47299bae43ccf399e",
+                "reference": "45be64102e4c624667ee5fd47299bae43ccf399e",
                 "shasum": ""
             },
             "require": {
@@ -263,7 +217,7 @@
                 }
             ],
             "description": "Website module for AbterPHP",
-            "time": "2020-01-04T17:52:33+00:00"
+            "time": "2020-01-13T00:59:36+00:00"
         },
         {
             "name": "bjeavons/zxcvbn-php",
@@ -647,16 +601,16 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "2.1.13",
+            "version": "2.1.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "834593d5900615639208417760ba6a17299e2497"
+                "reference": "c4b8d12921999d8a561004371701dbc2e05b5ece"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/834593d5900615639208417760ba6a17299e2497",
-                "reference": "834593d5900615639208417760ba6a17299e2497",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/c4b8d12921999d8a561004371701dbc2e05b5ece",
+                "reference": "c4b8d12921999d8a561004371701dbc2e05b5ece",
                 "shasum": ""
             },
             "require": {
@@ -700,7 +654,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2019-12-30T08:14:25+00:00"
+            "time": "2020-01-05T14:11:20+00:00"
         },
         {
             "name": "filp/whoops",
@@ -3510,16 +3464,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "8.5.1",
+            "version": "8.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "7870c78da3c5e4883eaef36ae47853ebb3cb86f2"
+                "reference": "018b6ac3c8ab20916db85fa91bf6465acb64d1e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/7870c78da3c5e4883eaef36ae47853ebb3cb86f2",
-                "reference": "7870c78da3c5e4883eaef36ae47853ebb3cb86f2",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/018b6ac3c8ab20916db85fa91bf6465acb64d1e0",
+                "reference": "018b6ac3c8ab20916db85fa91bf6465acb64d1e0",
                 "shasum": ""
             },
             "require": {
@@ -3589,7 +3543,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2019-12-25T14:49:39+00:00"
+            "time": "2020-01-08T08:49:49+00:00"
         },
         {
             "name": "psr/container",
