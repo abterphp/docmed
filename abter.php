@@ -20,6 +20,7 @@ return [
         ],
     ],
     Module::ASSETS_PATHS    => [
+        'root' => realpath(__DIR__ . '/resources/rawassets'),
         'docmed' => realpath(__DIR__ . '/resources/rawassets'),
     ],
 ];
