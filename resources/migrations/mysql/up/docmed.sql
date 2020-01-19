@@ -781,8 +781,7 @@ VALUES (UUID(), 'Layout Header', 'layout-header', '', null, '<header>
 </header>
 ');
 INSERT IGNORE INTO blocks (id, title, identifier, `body`, layout_id, layout)
-VALUES (UUID(), 'Testimonial Area', 'testimonial-area', '', null, '    <!-- testmonial_area_start -->
-    <div class="testmonial_area">
+VALUES (UUID(), 'Testimonial Area', 'testimonial-area', '', null, '<div class="testmonial_area">
         <div class="testmonial_active owl-carousel">
             <div class="single-testmonial testmonial_bg_1 overlay2">
                 <div class="container">
@@ -812,8 +811,7 @@ VALUES (UUID(), 'Testimonial Area', 'testimonial-area', '', null, '    <!-- test
                 </div>
             </div>
         </div>
-    </div>
-    <!-- testmonial_area_end -->');
+    </div>');
 INSERT IGNORE INTO blocks (id, title, identifier, `body`, layout_id, layout)
 VALUES (UUID(), 'Slider Area', 'slider-area', '', null, '<div class="slider_area">
     <div class="slider_active owl-carousel">
