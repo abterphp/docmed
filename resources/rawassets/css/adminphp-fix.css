@@ -13,3 +13,26 @@
 .lead p {
     font-weight: bold;
 }
+
+.footer .footer_top {
+    padding-top: 95px;
+    padding-bottom: 79px;
+}
+.footer_widget dl, .footer_widget dt, .footer_widget dd, .footer_widget a {
+    color: #C7C7C7;
+}
+.footer_widget dl {
+    clear: both;
+}
+.footer_widget dt {
+    float: left;
+    clear: both;
+    width: 50%;
+}
+.footer_widget dd {
+    float: left;
+    width: 50%;
+}
+.footer_widget a {
+    text-decoration: underline;
+}
