@@ -1100,9 +1100,21 @@ Aut pariatur mollitia dolorem. Ut aut quia cum qui. Vel ut omnis earum.',
 <p>Quia est dolorem id minus illo nam. Aliquam delectus debitis architecto ratione ea explicabo. Est molestiae est sint quos non veritatis. Asperiores nam ipsam asperiores dolorum numquam consequatur.</p>
 ', 0, null, (SELECT id FROM page_layouts WHERE identifier = 'docmed-all'), '', '', '', '', '', '');
 
+INSERT IGNORE INTO pages (id, identifier, title, meta_description, meta_robots, meta_author, meta_copyright,
+                          meta_keywords, meta_og_title, meta_og_image, meta_og_description, `lead`, `body`, is_draft,
+                          category_id, layout_id, layout, header, footer, css_files, js_files, classes)
+VALUES (UUID(), 'blog', 'Blog', '', '', '', '', '', '', '', '', '',
+        '<div>{{page-category/blog}}</div>', 0, null, (SELECT id FROM page_layouts WHERE identifier = 'docmed-all'), '', '', '', '', '', '');
+
+INSERT IGNORE INTO pages (id, identifier, title, meta_description, meta_robots, meta_author, meta_copyright,
+                          meta_keywords, meta_og_title, meta_og_image, meta_og_description, `lead`, `body`, is_draft,
+                          category_id, layout_id, layout, header, footer, css_files, js_files, classes)
+VALUES (UUID(), 'news', 'News', '', '', '', '', '', '', '', '', '',
+        '<div>{{page-category/news}}</div>', 0, null, (SELECT id FROM page_layouts WHERE identifier = 'docmed-all'), '', '', '', '', '', '');
+
 UPDATE pages
 SET deleted_at = NULL
-WHERE identifier IN ('department', 'doctors', 'elements', 'about', 'contact');
+WHERE identifier IN ('department', 'doctors', 'elements', 'about', 'contact', 'blog', 'news');
 
 UPDATE pages
 SET meta_description    = 'AbterCMS is a security first, simple and flexible open source content management system for both educational and commercial usecases.'

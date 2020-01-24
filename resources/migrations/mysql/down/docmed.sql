@@ -36,7 +36,7 @@ WHERE identifier IN
 
 UPDATE page_layouts
 SET deleted_at = NOW()
-WHERE identifier IN ('department', 'index');
+WHERE `name` IN ('Docmed Index', 'Docmed All');
 
 --
 -- Table structure and data for table `pages`
