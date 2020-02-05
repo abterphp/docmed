@@ -934,7 +934,8 @@ SET `name`     = 'Docmed Index',
 /js/popper.min.js
 /js/scrollIt.js
 /js/waypoints.min.js
-/js/wow.min.js',
+/js/wow.min.js
+/assets/js/safe-mail.js',
     classes    = '',
     updated_at = NOW(),
     deleted_at = NULL
@@ -1004,7 +1005,8 @@ SET `name`     = 'Docmed All',
 /js/popper.min.js
 /js/scrollIt.js
 /js/waypoints.min.js
-/js/wow.min.js',
+/js/wow.min.js
+/assets/js/safe-mail.js',
     classes    = '',
     updated_at = NOW(),
     deleted_at = NULL
