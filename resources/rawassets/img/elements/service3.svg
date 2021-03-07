@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47.63" height="47.63" viewBox="0 0 47.63 47.63">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 3.5px;
+      }
+    </style>
+  </defs>
+  <title>serviceEszköz 4</title>
+  <g>
+    <path class="a" d="M43.38,13.61A22.09,22.09,0,1,1,38.5,7.35"/>
+    <line class="a" x1="24.11" y1="24.12" x2="24.11" y2="9.12"/>
+    <line class="a" x1="24.11" y1="25.12" x2="35.11" y2="25.12"/>
+  </g>
+</svg>
